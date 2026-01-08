@@ -1,0 +1,7 @@
+{
+  "name": "Holiday Horizon",
+  "description": "A beautiful, personalized holiday countdown app that helps you track your upcoming trips and celebrations with stunning visual widgets and AI-powered celebration tips.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
