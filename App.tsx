@@ -17,6 +17,8 @@ const generateId = () => {
 };
 
 const COUNTRIES = [
+  { name: 'Singapore', code: 'SG', flag: '🇸🇬' },
+  { name: 'Malaysia', code: 'MY', flag: '🇲🇾' },
   { name: 'United States', code: 'US', flag: '🇺🇸' },
   { name: 'United Kingdom', code: 'GB', flag: '🇬🇧' },
   { name: 'Japan', code: 'JP', flag: '🇯🇵' },

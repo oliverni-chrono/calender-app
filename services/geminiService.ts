@@ -7,7 +7,7 @@ const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 export const getCelebrationIdeas = async (holidayName: string): Promise<CelebrationIdea[]> => {
   try {
     const response = await ai.models.generateContent({
-      model: "gemini-3-flash-preview",
+      model: "gemini-2.5-flash",
       contents: `Suggest 3 creative ways to celebrate or prepare for: ${holidayName}. Keep them short and inspiring.`,
       config: {
         responseMimeType: "application/json",
@@ -41,7 +41,7 @@ export const getGlobalHolidays = async (country: string): Promise<GlobalHoliday[
   const currentYear = new Date().getFullYear();
   try {
     const response = await ai.models.generateContent({
-      model: "gemini-3-flash-preview",
+      model: "gemini-2.5-flash",
       contents: `Provide a list of 5 major public holidays for ${country} in ${currentYear} or ${currentYear + 1}. Return the output in JSON format with fields: name, date (YYYY-MM-DD), description, and a single suitable emoji.`,
       config: {
         responseMimeType: "application/json",
