@@ -1,0 +1,33 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="512" height="512" rx="110" fill="url(#grad)"/>
+  
+  <!-- Calendar icon -->
+  <rect x="128" y="140" width="256" height="280" rx="20" fill="white" opacity="0.95"/>
+  <rect x="128" y="140" width="256" height="60" rx="20" fill="white"/>
+  
+  <!-- Calendar binding -->
+  <circle cx="190" cy="155" r="12" fill="#6366f1"/>
+  <circle cx="322" cy="155" r="12" fill="#6366f1"/>
+  
+  <!-- Sun/Horizon element -->
+  <circle cx="256" cy="300" r="50" fill="#fbbf24" opacity="0.9"/>
+  
+  <!-- Sun rays -->
+  <line x1="256" y1="220" x2="256" y2="240" stroke="#fbbf24" stroke-width="8" stroke-linecap="round"/>
+  <line x1="256" y1="360" x2="256" y2="380" stroke="#fbbf24" stroke-width="8" stroke-linecap="round"/>
+  <line x1="176" y1="300" x2="196" y2="300" stroke="#fbbf24" stroke-width="8" stroke-linecap="round"/>
+  <line x1="316" y1="300" x2="336" y2="300" stroke="#fbbf24" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Sparkles -->
+  <text x="340" y="190" font-size="30" fill="#a78bfa">✨</text>
+  <text x="160" y="370" font-size="25" fill="#ec4899">🎉</text>
+</svg>
